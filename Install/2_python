@@ -1,0 +1,7 @@
+sudo pip install \
+	isort\
+	sklearn\
+	virtualenv\
+	virtualenvwrapper\
+	mechanize\
+	bs4\ 

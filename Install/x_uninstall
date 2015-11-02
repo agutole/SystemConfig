@@ -1,0 +1,9 @@
+sudo apt-get remove --purge \
+    tali\
+    rhythmbox\
+    mplayer2\
+    imagemagick\
+    imagemagick-common\
+
+sudo apt-get autoremove
+

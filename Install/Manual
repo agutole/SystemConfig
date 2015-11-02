@@ -1,0 +1,42 @@
+# Bluetooth support
+# sudo apt-get install firmware-atheros
+
+# Vim poweline patch font
+https://github.com/Lokaltog/vim-powerline
+
+# Mas
+- Agregar fonts
+- Wallpaper
+- Oh my Zsh!
+
+# Compilar 
+- Vim (Con soporte python y clipboard)
+
+# Shortcuts
+ctrl + shift + space -> ncmpcpp toggle
+ctrl + shift + . -> ncmpcpp next
+ctrl + shift + , -> ncmpcpp prev
+
+
+-------------------------------------------------------------------------------------------------------
+# Vim compile with Clipboard + Python support
+
+cd vim/src
+
+./configure \
+	--enable-perlinterp \
+	--enable-pythoninterp \
+	--enable-cscope \
+	--enable-gui=auto \
+	--enable-gtk2-check \
+	--enable-gnome-check \
+	--with-features=huge \
+	--enable-multibyte \
+	--with-x \
+	--with-compiledby="toldo" \
+	--with-python-config-dir=/usr/lib/python2.7/config-x86_64-linux-gnu \
+	--with-python3-config-dir=/usr/lib/python3.3/config-3.3m-x86_64-linux-gnu
+
+make
+sudo make install
+-------------------------------------------------------------------------------------------------------

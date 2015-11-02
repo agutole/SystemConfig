@@ -1,0 +1,2 @@
+gsettings set org.gnome.shell enabled-extensions "['CoverflowAltTab@palatis.blogspot.com', 'hibernate-status@dromi', 'openweather-extension@jenslody.de', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'TaskBar@zpydr', 'shell-volume-mixer@derhofbauer.at', 'system-monitor@paradoxxx.zero.gmail.com', 'caffeine@patapon.info', 'topIcons@adel.gadllah@gmail.com']"
+
